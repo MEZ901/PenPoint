@@ -1,28 +1,16 @@
 // Import abstracts
-@use "abstracts/variables";
-@use "abstracts/mixins";
-@use "abstracts/functions";
-@use "abstracts/placeholders";
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "abstracts/functions";
+@import "abstracts/placeholders";
 
 // Import base
-@use "base/reset";
-@use "base/typography";
-@use "base/utilities";
+@import "base/reset";
+@import "base/typography";
+@import "base/utilities";
 
 // Import components
-@use "components/common/navbar";
+@import "components/common/navbar";
 
 // Import pages
-@use "pages/home";
-
-// Import fonts
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
-
-// Custom styles
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
-}
+@import "pages/home";

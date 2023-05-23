@@ -2,6 +2,7 @@
 
 import "@/styles/main.scss";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Navbar } from "@/components/common";
 
 export const metadata = {
   title: "PenPoint",
@@ -18,8 +19,11 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <QueryClientProvider client={queryClient}>
-          {children}
-        </QueryClientProvider> 
+          <Navbar />
+          <main className="container">
+            {children}
+          </main>
+        </QueryClientProvider>
       </body>
     </html>
   );
