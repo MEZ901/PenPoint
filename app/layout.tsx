@@ -1,6 +1,6 @@
-import "@/styles/main.scss";
+import "@styles/main.scss";
 import { Poppins } from "next/font/google";
-import { Navbar } from "@/components/common";
+import { Navbar } from "@components/common";
 
 export const metadata = {
   title: "PenPoint",
