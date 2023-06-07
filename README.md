@@ -14,7 +14,12 @@ To get started with PenPoint, follow these steps:
    ```bash
    yarn install
    ```
-3. Run the development server:
+3. Create environment variables:
+   - Make a copy of `.env.example` and rename it to `.env`.
+   - Change the values of the environment variables in `.env` to your own values.
+    > **Note:** The `.env` file should not be committed to version control (it is already added to the `.gitignore` file). However, the `.env.example` file is committed to version control as a reference for the environment variables.
+  
+4. Run the development server:
    ```bash
    yarn run dev
    ```
