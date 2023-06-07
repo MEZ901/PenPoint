@@ -1,5 +1,5 @@
 import { LogoBlack } from "@/public/assets/logo";
-import { Button } from "@mui/material";
+import { Button } from "@/lib/mui";
 
 const Navbar = () => {
   return (
@@ -7,12 +7,8 @@ const Navbar = () => {
       <div className="navElements">
         <img src={LogoBlack.src} alt="logo" width={100} />
         <div className="navButtons">
-          <Button>
-            Sign In
-          </Button>
-          <Button variant="contained">
-            Sign Up
-          </Button>
+          <Button>Sign In</Button>
+          <Button variant="contained">Sign Up</Button>
         </div>
       </div>
     </nav>
