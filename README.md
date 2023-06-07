@@ -21,7 +21,7 @@ To get started with PenPoint, follow these steps:
   
 4. Run the development server:
    ```bash
-   yarn run dev
+   yarn dev
    ```
 The application will be available at http://localhost:3000.
 
