@@ -10,10 +10,20 @@ To get started with PenPoint, follow these steps:
     ```bash
     git clone git@github.com:MEZ901/PenPoint.git
     ```
+
 2. Install dependencies:
-   ```bash
-   yarn install
-   ```
+   - If you prefer using  Yarn:
+      ```bash
+      yarn install
+      ```
+
+   - If you prefer using  npm:
+      ```bash
+      npm install
+      ```
+
+   > **Note:** If you choose npm, it will generate a `package-lock.json` file. You can safely delete the `yarn.lock` file if you decide to use npm as your package manager.
+
 3. Create environment variables:
    - Begin by duplicating the `.env.example` file and renaming the duplicate as `.env`.
    - Inside the newly created `.env` file, modify the values of the environment variables according to your specific requirements.
@@ -21,9 +31,16 @@ To get started with PenPoint, follow these steps:
    > **Note:** Remember not to include the `.env` file in version control, as it is already specified in the `.gitignore` file. However, the `.env.example` file is committed to version control to serve as a reference for the necessary environment variables
 
 4. Run the development server:
-   ```bash
-   yarn dev
-   ```
+   - If you are using Yarn:
+      ```bash
+      yarn dev
+      ```
+      
+   - If you are using npm:
+      ```bash
+      npm run dev
+      ```
+
 The application will be available at http://localhost:3000.
 
 ## Usage
