@@ -1,14 +1,22 @@
-// Colors
 $app_background: #ece8dd;
-$primary: #579bb1;
-$secondary: #e1d7c6;
-$light: #f8f4ea;
+
+// Light mode colors
+$light_mode_background: #ece8dd;
+$light_mode_primary: #579bb1;
+$light_mode_secondary: #e1d7c6;
+$light_mode_light: #f8f4ea;
+$light_mode_grey: #575757;
 
 // Dark mode colors
 $dark_mode_background: #222222;
-$dark_mode_primary: #86c2d9;
+$dark_mode_primary: #579bb1;
 $dark_mode_secondary: #c9baaa;
 $dark_mode_light: #333333;
+$dark_mode_grey: #aeaeae;
+
+// Black and white colors
+$color-black: #000000;
+$color-white: #ffffff;
 
 // Media Queries
 $breakpoints: (
