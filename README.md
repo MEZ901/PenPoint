@@ -1,4 +1,6 @@
-# PenPoint
+<div align="center">
+   <img src="./public/assets/logo/logo-no-background.svg" width=350 alt="PenPoint" />
+</div>
 
 PenPoint is a dynamic article web application, akin to Medium, empowering users to engage with captivating content, express appreciation through likes, comments, and even contribute their own thought-provoking articles with the convenience of Markdown formatting.
 
