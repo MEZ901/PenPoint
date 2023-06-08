@@ -1,6 +1,6 @@
 # PenPoint
 
-PenPoint is an article web application similar to Medium, where users can read, like and comment on articles and they can also write articles using Markdown.
+PenPoint is a dynamic article web application, akin to Medium, empowering users to engage with captivating content, express appreciation through likes, comments, and even contribute their own thought-provoking articles with the convenience of Markdown formatting.
 
 ## Installation
 
@@ -15,10 +15,11 @@ To get started with PenPoint, follow these steps:
    yarn install
    ```
 3. Create environment variables:
-   - Make a copy of `.env.example` and rename it to `.env`.
-   - Change the values of the environment variables in `.env` to your own values.
-    > **Note:** The `.env` file should not be committed to version control (it is already added to the `.gitignore` file). However, the `.env.example` file is committed to version control as a reference for the environment variables.
-  
+   - Begin by duplicating the `.env.example` file and renaming the duplicate as `.env`.
+   - Inside the newly created `.env` file, modify the values of the environment variables according to your specific requirements.
+
+   > **Note:** Remember not to include the `.env` file in version control, as it is already specified in the `.gitignore` file. However, the `.env.example` file is committed to version control to serve as a reference for the necessary environment variables
+
 4. Run the development server:
    ```bash
    yarn dev
@@ -43,37 +44,37 @@ The PenPoint project has the following file structure:
 ├── app/
 │   ├── api/
 |   ├── layout.tsx
-|   ├── page.tsx
+|   └── page.tsx
 ├── components/
 │   ├── common/
-|   ├── home/
+|   └── home/
 ├── context/
 ├── db/
-|   ├── database.ts
+|   └── database.ts
 ├── hooks/
 ├── lib/
-|   ├── utilities.ts
+|   └── utilities.ts
 ├── models/
 ├── public/
-|   ├── assets/
+|   └── assets/
 ├── styles/
 |   ├── abstracts/
 |   |   ├── _functions.scss
 |   |   ├── _mixins.scss
 |   |   ├── _placeholders.scss
-|   |   ├── _variables.scss
+|   |   └── _variables.scss
 |   ├── base/
 |   |   ├── _reset.scss
 |   |   ├── _typography.scss
-|   |   ├── _utilities.scss
+|   |   └── _utilities.scss
 |   ├── components/
 |   |   ├── common/
-|   |   ├── home/
+|   |   └── home/
 |   ├── pages/
-|   |   ├── _home.scss
-|   ├── main.scss
+|   |   └── _home.scss
+|   └── main.scss
 ├── types/
-|   ├── global.d.ts
+|   └── global.d.ts
 └── ...
 ```
 - `app/`: This folder contains the App Router for Next.js. It includes the `api/` folder for serverless functions, `layout.tsx` for defining a layout component, and `page.tsx` for defining a page component.
