@@ -12,13 +12,18 @@ $dark_mode_light: #333333;
 
 // Media Queries
 $breakpoints: (
-  sm: 768px,
-  md: 992px,
+  sm: 576px,
+  md: 768px,
   lg: 992px,
   xl: 1200px,
 );
 
-$col-sm: 540px;
-$col-md: 720px;
-$col-lg: 960px;
-$col-xl: 1140px;
+$col-sm: 340px;
+$col-md: 520px;
+$col-lg: 760px;
+$col-xl: 940px;
+
+$nav-col-sm: 540px;
+$nav-col-md: 720px;
+$nav-col-lg: 960px;
+$nav-col-xl: 1140px;

@@ -1,0 +1,23 @@
+.nav-container {
+  position: relative;
+  margin: 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  width: 100%;
+
+  @include mq(sm) {
+    max-width: $nav-col-sm;
+  }
+
+  @include mq(md) {
+    max-width: $nav-col-md;
+  }
+
+  @include mq(lg) {
+    max-width: $nav-col-lg;
+  }
+
+  @include mq(xl) {
+    max-width: $nav-col-xl;
+  }
+}
