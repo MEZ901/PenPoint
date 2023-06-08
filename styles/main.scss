@@ -10,7 +10,13 @@
 @import "base/utilities";
 
 // Import components
+@import "components/container";
 @import "components/common/navbar";
 
 // Import pages
 @import "pages/home";
+
+// Set the background color
+body {
+  background-color: $app_background;
+}

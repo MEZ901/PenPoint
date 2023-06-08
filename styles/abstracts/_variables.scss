@@ -1,1 +1,24 @@
+// Colors
+$app_background: #ece8dd;
+$primary: #579bb1;
+$secondary: #e1d7c6;
+$light: #f8f4ea;
 
+// Dark mode colors
+$dark_mode_background: #222222;
+$dark_mode_primary: #86c2d9;
+$dark_mode_secondary: #c9baaa;
+$dark_mode_light: #333333;
+
+// Media Queries
+$breakpoints: (
+  sm: 768px,
+  md: 992px,
+  lg: 992px,
+  xl: 1200px,
+);
+
+$col-sm: 540px;
+$col-md: 720px;
+$col-lg: 960px;
+$col-xl: 1140px;
