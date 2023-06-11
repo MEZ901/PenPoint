@@ -14,11 +14,11 @@ const poppins = Poppins({
   display: "swap",
 });
 
-export default function RootLayout({
-  children,
-}: {
+interface RootLayoutProps {
   children: React.ReactNode;
-}) {
+}
+
+const RootLayout: React.FunctionComponent<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en" className={poppins.className}>
       <body>
@@ -27,4 +27,6 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;

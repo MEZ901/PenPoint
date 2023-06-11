@@ -1,8 +1,10 @@
 .nav-container {
   position: relative;
-  margin: 0 auto;
+  margin: 1rem auto;
   padding-inline: 1rem;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 
   @include mq(sm) {
     max-width: $nav-col-sm;
