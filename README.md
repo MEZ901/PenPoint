@@ -2,6 +2,13 @@
    <img src="./public/assets/logo/logo-no-background.svg" width=350 alt="PenPoint" />
 </div>
 
+<div align="center">
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/MEZ901/PenPoint/blob/main/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/MEZ901/PenPoint#contributing)
+
+</div>
+
 PenPoint is a dynamic article web application, akin to Medium, empowering users to engage with captivating content, express appreciation through likes, comments, and even contribute their own thought-provoking articles with the convenience of Markdown formatting.
 
 ## Installation
