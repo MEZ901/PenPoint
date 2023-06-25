@@ -2,16 +2,12 @@
 
 import { Button, ButtonGroup } from "@mui/material";
 import { LogoNoBackground } from "@public/assets/logo";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
     <nav className="nav-container">
-      <img
-        src={LogoNoBackground.src}
-        width={144}
-        alt="PenPoint"
-        className="logo"
-      />
+      <Image src={LogoNoBackground} width={144} alt="PenPoint" />
       <div>
         <ButtonGroup variant="text" aria-label="text button group">
           <Button sx={{ px: 5 }}>Sign in</Button>
