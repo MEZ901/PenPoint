@@ -1,22 +1,5 @@
 .container {
-  position: relative;
-  margin: 0 auto;
-  padding-inline: 1rem;
-  width: 100%;
-
-  @include mq(sm) {
-    max-width: $col-sm;
-  }
-
-  @include mq(md) {
-    max-width: $col-md;
-  }
-
-  @include mq(lg) {
-    max-width: $col-lg;
-  }
-
-  @include mq(xl) {
-    max-width: $col-xl;
-  }
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 1rem;
 }

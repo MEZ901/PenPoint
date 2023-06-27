@@ -21,9 +21,9 @@ interface RootLayoutProps {
 const RootLayout: React.FunctionComponent<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en" className={poppins.className}>
-      <body>
+      <body className="container">
         <Navbar />
-        <main className="container">{children}</main>
+        <main className="main">{children}</main>
       </body>
     </html>
   );
