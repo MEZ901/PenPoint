@@ -74,7 +74,9 @@ The PenPoint project has the following file structure:
 ├── components/
 │   ├── common/
 |   └── home/
-├── context/
+├── jotai/
+|   ├── JotaiProvider.tsx
+|   └── atoms.ts
 ├── db/
 |   └── database.ts
 ├── hooks/

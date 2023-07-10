@@ -1,7 +1,7 @@
 import "@styles/main.scss";
 import { Poppins } from "next/font/google";
 import { Navbar } from "@components/common";
-import Providers from "@jotai/Providers";
+import JotaiProvider from "@jotai/JotaiProvider";
 
 export const metadata = {
   title: "PenPoint",
@@ -23,10 +23,10 @@ const RootLayout: React.FunctionComponent<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en" className={poppins.className}>
       <body className="container">
-        <Providers>
+        <JotaiProvider>
           <Navbar />
           <main className="main">{children}</main>
-        </Providers>
+        </JotaiProvider>
       </body>
     </html>
   );
